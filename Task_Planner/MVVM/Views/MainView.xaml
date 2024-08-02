@@ -4,7 +4,7 @@
              x:Class="Task_Planner.MVVM.Views.MainView"
              Title="MainView">
     <Grid Margin="15" RowDefinitions=".1*, .3*, .7*">
-        <Label Text="My Tasks"/>
+        <Label Text="My Tasks" StyleClass="DarkBlue, Header"/>
         <Grid Grid.Row="1" BackgroundColor="DarkRed"/>
         <Grid Grid.Row="2" BackgroundColor="DarkGoldenrod"/>
     </Grid>
